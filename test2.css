@@ -1,0 +1,28 @@
+.test{
+    color: brown;
+    word-spacing: 12mm;
+
+}
+#try{
+    color: aqua;
+    letter-spacing: 5mm;
+}
+.abc{
+    color: rgb(243, 3, 3);
+    font-size:xx-large;
+}
+.abc::after{
+    content: "@";
+    color: rgb(60, 255, 0);
+}
+/* .abc::before{
+    content: "@";
+} */
+.abc::first-letter{
+    color: blue;
+    font-size: larger;
+} 
+.abc:hover{
+    color: black;
+    font-size: 50px;
+}
